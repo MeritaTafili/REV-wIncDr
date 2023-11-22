@@ -2,7 +2,7 @@
 """
 Created on Fri Feb  3 19:21:41 2023
 
-@author: merita
+@author: merit
 """
 
 #%%
@@ -99,8 +99,8 @@ sp2.plot(eps11, epsv, color = 'red', ls='-', lw=0.75, zorder=1)
 # sp2.set_xticks(np.arange(0,550,100))
 # sp2.set_ylim(-550,550)
 # sp2.set_yticks(np.arange(-500,600,100))
-sp1.set_xlabel('$\\varepsilon_{1}$ in %')
-sp1.set_ylabel('$\\varepsilon_v$ in %' )
+sp2.set_xlabel('$\\varepsilon_{1}$ in %')
+sp2.set_ylabel('$\\varepsilon_v$ in %' )
 
 ax = fig.gca()
 

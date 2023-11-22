@@ -2,7 +2,7 @@
 """
 Created on Fri Feb  3 19:21:41 2023
 
-@author: merita
+@author: merit
 """
 
 #%%

@@ -25,12 +25,30 @@ C
 	
 
       ! add your code here
+      E = props(1)
+      ANU = props(2)
+      
+      ALAMBDA=E*ANU/(ONE+ANU)/(ONE-TWO*ANU)
+      AMU=E/(ONE+ANU)/TWO
 C
 	DO I=1,NTENS
 	 DO J=1,NTENS
 	  DDSDDE(I,J)=ZERO
 	 ENDDO
-	ENDDO
+        ENDDO
+      
+        DDSDDE(1,1) = ALAMBDA+TWO*AMU
+	DDSDDE(2,2) = ALAMBDA+TWO*AMU
+	DDSDDE(3,3) = ALAMBDA+TWO*AMU
+	DDSDDE(4,4) = AMU
+	DDSDDE(5,5) = AMU
+	DDSDDE(6,6) = AMU
+	DDSDDE(1,2) = ALAMBDA
+	DDSDDE(1,3) = ALAMBDA
+	DDSDDE(2,3) = ALAMBDA
+	DDSDDE(2,1) = ALAMBDA
+	DDSDDE(3,1) = ALAMBDA
+	DDSDDE(3,2) = ALAMBDA
 C
       ! add your code here
 C

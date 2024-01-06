@@ -1,0 +1,5 @@
+    Hypo-Elasticity_s                                                                  cmname
+    3           nprops
+    125        props(1)  G0 in kPa
+    100        props(2)  pat in Pa
+    0.3        props(3)  nu

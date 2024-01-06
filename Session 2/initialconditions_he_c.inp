@@ -1,0 +1,11 @@
+ 6            ntens
+ -200     stress(1)
+ -200     stress(2) K0=1-sin(varphi_c)=0.6
+ -200     stress(3) K0=1-sin(varphi_c)=0.6
+  0       stress(4)
+  0       stress(5)
+  0       stress(ntens)  
+  1       nstatv    number of state variables
+  0.9     statev(1) void ratio
+   
+

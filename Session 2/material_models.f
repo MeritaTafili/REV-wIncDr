@@ -3,6 +3,8 @@
 !  MATERIAL MODELS
 !
 !  - Linear-Elasticity
+!  - Hypo-Elasticity_c
+!  - Hypo-Elasticity_s
 !
 ! ====================================================================
 

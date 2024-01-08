@@ -13,4 +13,4 @@ includes an introduction to tensor_tools.f (fortran based operations for tensors
            coding simple hypo-elastic umats for sand and clay (void ratio and mean stress dependent)
            and get used to IncDr commands (additionally isotropic, oedometric, roscoe)
 
-### Tutorial: 
+### Tutorial: https://www.youtube.com/watch?v=_k8ETzPNDVM

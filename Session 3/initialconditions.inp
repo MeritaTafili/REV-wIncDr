@@ -1,0 +1,16 @@
+ 6            ntens
+ -200     stress(1)
+ -200     stress(2) K0=1-sin(varphi_c)=0.6
+ -200     stress(3) K0=1-sin(varphi_c)=0.6
+  0       stress(4)
+  0       stress(5)
+  0       stress(ntens)  
+  8       nstatv    number of state variables
+  0.8     statev(1) void ratio
+  0       statev(2)  plastic strains component 1
+  0       statev(3)  plastic strains component 2
+  0       statev(4)  plastic strains component 3
+  0       statev(5)  plastic strains component 4
+  0       statev(6)  plastic strains component 5
+  0       statev(7)  plastic strains component 6  
+  200     statev(8)  overconsolidated mean stress pc   

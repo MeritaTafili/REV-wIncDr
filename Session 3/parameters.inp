@@ -1,0 +1,6 @@
+    MCC                                                                 cmname
+    4           nprops
+    0.1         props(1)  \lambda: compression index
+    0.01        props(2)  \kappa: swelling index
+    1.0         props(3)  M: slope of critical state line in triaxial compression
+    0.3         props(4)  \nu: Poisson's ratio

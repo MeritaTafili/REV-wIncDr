@@ -1,0 +1,78 @@
+CU_cyc_q100.out
+*TriaxialUq
+500  50  1.0  
+100
+*Repetition
+2 10
+*TriaxialUq
+500  50  1.0  
+-200
+*TriaxialUq
+500  50  1.0  
+200
+*End
+
+CD_MCC_OCR4.out
+*TriaxialE1
+1000 30 1
+-0.15
+*END
+
+CU_MCC_OCR4.out
+*TriaxialUEq
+1000 30 100
+0.3
+*END
+
+
+oed_MCC_OCR4.out
+*OedometricS1
+1000 30 1
+-1000
+*END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+output_CU_1.out
+*LinearLoad
+1000 30 100
+*Cartesian
+0 -0.3
+0 0.15
+0 0.15
+0 0
+0 0
+0 0
+*END
+
+output_CU_2.out
+*TriaxialUEq
+1000 30 100
+0.3
+*END
